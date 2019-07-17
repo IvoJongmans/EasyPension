@@ -37,6 +37,10 @@ hr {
     border-color: #FB7612;
 }
 
+.pensioenpresentatieskort {
+    display: none;
+}
+
 .boxtext {
     max-width: 100%;
     min-height: 350px;
@@ -74,6 +78,12 @@ hr {
     }
     .boximage {
         height: 510px;
+    }
+    .pensioenpresentaties {
+        display: none;
+    }
+    .pensioenpresentatieskort {
+        display: block;
     }
 }
 @media only screen and (max-width:767px) {

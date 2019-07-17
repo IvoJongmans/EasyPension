@@ -1,0 +1,93 @@
+@font-face {
+    font-family: MontserratEB;
+    src: url("MonteserratExtraBold/Montserrat-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MontserratEL;
+    src: url("MonteserratExtraBold/Montserrat-ExtraLight.otf") format("opentype");
+}
+
+body {
+    background-color: #001B2B;
+    font-family: 'MontserratEL', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.brandlogo {
+    height: 80px;
+    margin-top: -23px;
+}
+
+.push {
+    height: 45px;
+}
+
+h1 {
+    font-family: 'MontserratEB', sans-serif; 
+}
+
+.celsius {
+    color: #FB7612;
+    font-family: 'MontserratEB', sans-serif; 
+}
+
+hr {
+    border-color: #FB7612;
+}
+
+.boxtext {
+    max-width: 100%;
+    min-height: 350px;
+    border: 3px solid orange;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 3px solid #FB7612;
+}
+
+.boximage {
+    max-width: 100%;
+    min-height: 350px;
+    border: 3px solid orange;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 3px solid #FB7612;
+    background-image: url("./personaladvice.jfif");
+}
+
+@media only screen and (max-width:1200px) {
+    .boxtext {
+        height: 400px;
+    }
+    .boximage {
+        height: 400px;
+    }
+}
+@media only screen and (max-width:992px) {
+    .boxtext {
+        height: 510px;
+    }
+    .boximage {
+        height: 510px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .brandlogo {
+        height: 70px;
+    }
+    .boxtext {
+        height: 100%;
+    }
+    .boximage {
+        display: none;
+    }
+}
+}
+
+
+

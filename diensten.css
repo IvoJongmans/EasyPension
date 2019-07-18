@@ -9,10 +9,10 @@
 }
 
 .row {
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
-    display:         flex;
+    display: -ms-flexbox; */
+    display: flex;
     flex-wrap: wrap;
   }
   .row > [class*='col-'] {

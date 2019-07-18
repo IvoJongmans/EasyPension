@@ -74,7 +74,6 @@ hr {
 
 .boximage {
     width: 100%;
-    /* min-height: 500px; */
     height: 100%;
     border: 3px solid orange;
     display:block;
@@ -85,23 +84,7 @@ hr {
     background-image: url("./personaladvice.jfif");
 }
 
-@media only screen and (max-width:1200px) {
-    .boxtext {
-        /* height: 650px; */
-    }
-    .boximage {
-        /* height: 650px; */
-    }
-}
-
 @media only screen and (max-width:992px) {
-    .boxtext {
-        /* height: 540px; */
-        height: 100%;
-    }
-    .boximage {
-        /* height: 540px; */
-    }
     .pensioenpresentaties {
         display: none;
     }
@@ -119,9 +102,6 @@ hr {
 @media only screen and (max-width:767px) {
     .brandlogo {
         height: 70px;
-    }
-    .boxtext {
-        /* height: 100%; */
     }
     .boximage {
         display: none;

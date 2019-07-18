@@ -72,6 +72,7 @@ hr {
         height: 400px;
     }
 }
+
 @media only screen and (max-width:992px) {
     .boxtext {
         height: 510px;
@@ -86,6 +87,7 @@ hr {
         display: block;
     }
 }
+
 @media only screen and (max-width:767px) {
     .brandlogo {
         height: 70px;
@@ -96,7 +98,6 @@ hr {
     .boximage {
         display: none;
     }
-}
 }
 
 

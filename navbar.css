@@ -17,7 +17,7 @@
 }
 
 .navbar-header {
-    height:60px;
+    height:80px;
 }
 
 .navbar-default .navbar-brand {
@@ -30,7 +30,7 @@
 /* Link */
 .navbar-default .navbar-nav > li > a {
     color: white;
-    line-height: 30px;
+    line-height: 50px;
     font-family: 'MontserratEL', sans-serif;
     font-weight: 100;
 }

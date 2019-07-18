@@ -9,9 +9,10 @@
 }
 
 .row {
-    /* display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox; */
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
     display: flex;
     flex-wrap: wrap;
   }

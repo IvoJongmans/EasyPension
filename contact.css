@@ -16,12 +16,12 @@ body {
 }
 
 .brandlogo {
-    height: 80px;
+    height: 100px;
     margin-top: -23px;
 }
 
 .push {
-    height: 45px;
+    height: 65px;
 }
 
 h1 {
@@ -51,6 +51,9 @@ hr {
     }
     .hrhidden {
         display: block;
+    }
+    .push {
+        height: 45px;
     }
 }
 

@@ -16,12 +16,12 @@ body {
 }
 
 .brandlogo {
-    height: 80px;
+    height: 100px;
     margin-top: -23px;
 }
 
 .push {
-    height: 45px;
+    height: 65px;
 }
 
 .homepagecontent {
@@ -50,88 +50,9 @@ h1 {
     font-family: 'MontserratEB', sans-serif; 
 }
 
-/* .ul-nav li {
-    font-size: 20px;
-    font-weight: bold;
-} */
-
 hr {
     border-color: #FB7612;
 }
-
-/* .contactmaps {    
-    width: 100%;
-} */
-
-/* .box {
-    max-width: 500px;
-    min-height: 370px;
-    border: 3px solid orange;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
-
-.boxlocked {
-    border: 3px solid #FB7612;
-}
-
-.vcenter {
-    margin-top: 60px;
-}
-
-.box .unlocked {
-    max-height: 100%;
-    max-width: 100%;
-}
-.box .locked {
-    max-height: 75px;
-    display:block;
-    margin:auto;
-    padding:10px;
-}
-
-.padclick {
-    cursor: pointer;
-}
-
-.abouttitle {
-    font-weight: 900;
-    padding: 25px;
-}
-
-.verticalcenter {
-    
-    display:block;
-    margin: 70px auto;
-}   
-
-.horizontalcenter {
-    display:block;
-    margin:auto;
-}
-     
-/* @media only screen and (max-width:1199px) {
-    .verticalcenter{
-        margin-top: 83px;
-    }
-    .pad1 {
-        margin-top: 80px;
-    }
-} */
-/* @media only screen and (max-width:991px) {
-    .slogan{
-        display: none;
-    }
-    .horizontalcenter {
-        margin-top: 50px;
-    }
-    .pad1 {
-        margin-top: 0px;
-        padding-bottom: 8px;
-    }
-} */
 
 @media only screen and (max-width:767px) {
     .brandlogo {
@@ -150,6 +71,9 @@ hr {
     }   
     .centercontent {
         margin-top: 47px;
+    }
+    .push {
+        height: 45px;
     }
 }
 

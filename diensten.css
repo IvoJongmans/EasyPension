@@ -121,7 +121,6 @@ hr {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    /* margin-bottom: 20px; */
     border: 3px solid #FB7612;
 }
 
@@ -129,11 +128,31 @@ hr {
     padding: 10px;
 }
 
-.boximage {
+.boximage1 {
+    background: url("./dienst1.jfif") 0 0 / cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #FB7612;
+}
+
+.boximage2 {
     background: url("./dienstenimg.jpg") 0 0 / cover;
     width: 100%;
     height: 100%;
-    /* margin-bottom: 20px; */
+    border: 3px solid #FB7612;
+}
+
+.boximage3 {
+    background: url("./dienstenimg.jpg") 0 0 / cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #FB7612;
+}
+
+.boximage4 {
+    background: url("./dienstenimg.jpg") 0 0 / cover;
+    width: 100%;
+    height: 100%;
     border: 3px solid #FB7612;
 }
 

@@ -8,7 +8,7 @@
     src: url("MonteserratExtraBold/Montserrat-ExtraLight.otf") format("opentype");
 }
 
-.gridcontainer {
+/* .gridcontainer {
     display: grid;
     grid-template-columns: 175px 1fr 1fr 175px;
     grid-template-rows: max-content;
@@ -63,9 +63,9 @@
 .box8 {
     grid-area: box8;
     border: 3px solid #FB7612;
-}
+} */
 
-/* .row {
+.row {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -76,7 +76,7 @@
   .row > [class*='col-'] {
     display: flex;
     flex-direction: column;
-  } */
+  }
 
 body {
     background-color: #001B2B;
@@ -107,7 +107,7 @@ hr {
     border-color: #FB7612;
 }
 
-/* .pensioenpresentatieskort {
+.pensioenpresentatieskort {
     display: none;
 }
 
@@ -137,8 +137,8 @@ hr {
     margin-right: auto;
     margin-bottom: 20px;
     border: 3px solid #FB7612;
-    background-image: url("./personaladvice.jfif");
-} */
+    background-image: url("./dienstenimg.jpg");
+}
 
 @media only screen and (max-width:992px) {
     .pensioenpresentaties {

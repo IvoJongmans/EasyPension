@@ -71,11 +71,11 @@
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
   }
   .row > [class*='col-'] {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
 body {

@@ -8,7 +8,64 @@
     src: url("MonteserratExtraBold/Montserrat-ExtraLight.otf") format("opentype");
 }
 
-.row {
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 175px 1fr 1fr 175px;
+    grid-template-rows: max-content;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        ". box1 box2 ."
+        ". box3 box4 ."
+        ". box5 box6 ."
+        ". box7 box8 ."
+}
+
+.box1 {
+    grid-area: box1;
+    border: 3px solid #FB7612;
+}
+
+.box2 {
+    grid-area: box2;
+    background-image: url("./personaladvice.jfif");
+    border: 3px solid #FB7612;
+}
+
+.box3 {
+    grid-area: box3;
+    background-image: url("./personaladvice.jfif");
+    border: 3px solid #FB7612;
+}
+
+.box4 {
+    grid-area: box4;
+    border: 3px solid #FB7612;
+}
+
+.box5 {
+    grid-area: box5;
+    border: 3px solid #FB7612;
+}
+
+.box6 {
+    grid-area: box6;
+    background-image: url("./personaladvice.jfif");
+    border: 3px solid #FB7612;
+}
+
+.box7 {
+    grid-area: box7;
+    background-image: url("./personaladvice.jfif");
+    border: 3px solid #FB7612;
+}
+
+.box8 {
+    grid-area: box8;
+    border: 3px solid #FB7612;
+}
+
+/* .row {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -19,7 +76,7 @@
   .row > [class*='col-'] {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
 body {
     background-color: #001B2B;
@@ -50,7 +107,7 @@ hr {
     border-color: #FB7612;
 }
 
-.pensioenpresentatieskort {
+/* .pensioenpresentatieskort {
     display: none;
 }
 
@@ -61,7 +118,6 @@ hr {
 .boxtext {
     max-width: 100%;
     height: 100%;
-    border: 3px solid orange;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -76,14 +132,13 @@ hr {
 .boximage {
     width: 100%;
     height: 100%;
-    border: 3px solid orange;
     display:block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     border: 3px solid #FB7612;
     background-image: url("./personaladvice.jfif");
-}
+} */
 
 @media only screen and (max-width:992px) {
     .pensioenpresentaties {

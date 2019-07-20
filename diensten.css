@@ -175,7 +175,7 @@ hr {
     .brandlogo {
         height: 70px;
     }
-    .boximage {
+    div[class*='boximage'] {
         display: none;
     }
     .push {

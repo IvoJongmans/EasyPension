@@ -72,7 +72,7 @@
     display: -o-flex;
     display: flex;
     margin-bottom: 20px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
   }
   .row > [class*='col-'] {
     display: flex;
@@ -161,6 +161,9 @@ hr {
     }
     .push {
         height: 45px;
+    }
+    .row {
+        display: block;
     }
 }
 

@@ -80,18 +80,16 @@
                     <input type="checkbox" name="contact_me_by_fax_only" value="1" style="display:none !important"
                         tabindex="-1" autocomplete="off">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="voornaam" name="voornaam" placeholder="Naam*"
-                            required>
+                        <input type="text" class="form-control" id="voornaam" name="voornaam" placeholder="Naam*" onfocus="this.placeholder=''" onblur="this.placeholder='Naam*'" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="achternaam" name="achternaam"
-                            placeholder="Achternaam*" required>
+                        <input type="text" class="form-control" id="achternaam" name="achternaam" placeholder="Achternaam*" onfocus="this.placeholder=''" onblur="this.placeholder='Achternaam*'" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="E-mailadres*" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="E-mailadres*" onfocus="this.placeholder=''" onblur="this.placeholder='E-mailadres*'" required>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="message" required>Laat hier uw bericht achter...</textarea>
+                        <textarea class="form-control" name="message" required placeholder="Laat hier uw bericht achter...*" onfocus="this.placeholder=''" onblur="this.placeholder='Laat hier uw bericht achter...*'"></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-warning">Verstuur</button>

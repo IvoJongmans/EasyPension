@@ -8,63 +8,6 @@
     src: url("MonteserratExtraBold/Montserrat-ExtraLight.otf") format("opentype");
 }
 
-/* .gridcontainer {
-    display: grid;
-    grid-template-columns: 175px 1fr 1fr 175px;
-    grid-template-rows: max-content;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    grid-template-areas: 
-        ". box1 box2 ."
-        ". box3 box4 ."
-        ". box5 box6 ."
-        ". box7 box8 ."
-}
-
-.box1 {
-    grid-area: box1;
-    border: 3px solid #FB7612;
-}
-
-.box2 {
-    grid-area: box2;
-    background-image: url("./personaladvice.jfif");
-    border: 3px solid #FB7612;
-}
-
-.box3 {
-    grid-area: box3;
-    background-image: url("./personaladvice.jfif");
-    border: 3px solid #FB7612;
-}
-
-.box4 {
-    grid-area: box4;
-    border: 3px solid #FB7612;
-}
-
-.box5 {
-    grid-area: box5;
-    border: 3px solid #FB7612;
-}
-
-.box6 {
-    grid-area: box6;
-    background-image: url("./personaladvice.jfif");
-    border: 3px solid #FB7612;
-}
-
-.box7 {
-    grid-area: box7;
-    background-image: url("./personaladvice.jfif");
-    border: 3px solid #FB7612;
-}
-
-.box8 {
-    grid-area: box8;
-    border: 3px solid #FB7612;
-} */
-
 .row {
     display: -webkit-flex;
     display: -moz-flex;
@@ -72,8 +15,8 @@
     display: -o-flex;
     display: flex;
     margin-bottom: 20px;
-    /* flex-wrap: wrap; */
   }
+
   .row > [class*='col-'] {
     display: flex;
     flex-direction: row;
@@ -156,15 +99,18 @@ hr {
     border: 3px solid #FB7612;
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1199px) {
     .pensioenpresentaties {
-        display: none;
-    }
-    .pensioenaankoop {
         display: none;
     }
     .pensioenpresentatieskort {
         display: block;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .pensioenaankoop {
+        display: none;
     }
     .pensioenaankoopkort {
         display: block;

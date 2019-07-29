@@ -45,9 +45,17 @@ h1 {
     font-family: 'MontserratEB', sans-serif; 
 }
 
+.title {
+    font-family: 'MontserratEB', sans-serif;  
+    font-weight: bolder;
+    font-size: 2em;
+}
+
 .celsius {
     color: #FB7612;
-    font-family: 'MontserratEB', sans-serif; 
+    font-size: 2em;
+    font-weight: 700;
+    /* font-family: 'MontserratEB', sans-serif;  */
 }
 
 hr {

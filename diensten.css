@@ -59,6 +59,10 @@ h1 {
     /* font-family: 'MontserratEB', sans-serif;  */
 }
 
+.celsiusmarginleft {
+    margin-left: 0px;
+}
+
 p {
     text-align: justify;
 }
@@ -137,7 +141,10 @@ hr {
         display: none;
     }
     .pensioenaankoopkort {
-        display: block;
+        display: inline-block;
+    }
+    .celsiusmarginleft {
+        margin-left: -13px;
     }
 }
 

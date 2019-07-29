@@ -42,9 +42,25 @@ h1 {
     font-family: 'MontserratEB', sans-serif; 
 }
 
+.pushtitle {
+    height: 40px;
+}
+
+.title {
+    font-family: 'MontserratEB', sans-serif;  
+    font-weight: bolder;
+    font-size: 2em;
+}
+
 .celsius {
     color: #FB7612;
-    font-family: 'MontserratEB', sans-serif; 
+    font-size: 2em;
+    font-weight: 700;
+    /* font-family: 'MontserratEB', sans-serif;  */
+}
+
+p {
+    text-align: justify;
 }
 
 hr {
@@ -112,7 +128,7 @@ hr {
         display: none;
     }
     .pensioenpresentatieskort {
-        display: block;
+        display: inline-block;
     }
 }
 
